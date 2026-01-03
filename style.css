@@ -4,9 +4,9 @@
 }
  
 .main-div{
-    width: 80%;
+    width: 60%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     border: 2px solid rgba(220, 210, 210, 0.267);
     margin: auto;
     margin-top: 20px;
@@ -39,7 +39,9 @@
 @media  screen and (max-width:1024px) {
     .main-div{
         grid-template-columns: repeat(2,1fr);
+          width: 90%;
     }
+
 }
 @media  screen and (max-width:425px){
      .main-div{
