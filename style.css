@@ -200,3 +200,21 @@
     align-items: center;
    }
 }
+
+
+
+
+.background-image{
+    background-image: url(/back/background\ image\ dibo\ ata.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 300px;
+}
+@media screen  and (max-width:320px){
+      .background-image{
+        width: 100%;
+      }
+}
